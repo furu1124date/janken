@@ -1,3 +1,4 @@
+import random
 
 print('1.グー  2.チョキ  3.パー')
 print(f'あなたの手を入力してください')
@@ -10,3 +11,5 @@ elif hand == 3:
     print('あなたの手は: パー')
 else:
     print('1,2,3 のどれかで入力してください')
+CPU = random.randint(1,3)
+print(CPU)
